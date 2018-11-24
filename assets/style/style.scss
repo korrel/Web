@@ -17,5 +17,9 @@ body {
     box-sizing: border-box;
     background-color: $blanc;
 
+    // ---- Import style HEADER ---- //
     @import "imports/header.scss";
+
+    // ---- Import style HEADER ---- //
+    @import "imports/slide.scss";
 }

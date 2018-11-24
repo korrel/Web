@@ -10,7 +10,7 @@
     <meta name="descripion" content="Boutique e-commerce en ligne de t-shirts originaux basés sur les langages de programmation et de développement">
     <meta name="author" content="DEV my Shirts">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="">
+    <link rel="icon" href="#">
 
     <!-- Liens vers les .CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
@@ -60,12 +60,12 @@
                     <!-- Icones des réseaux sociaux -->
                     <div class="row ml-3 my-2 my-lg-0 pb-2 pb-lg-0 ml-lg-0 mr-lg-3 gr_sociaux">
                         <div class="col-1 col-lg-6 px-1">
-                            <a href="">
+                            <a href="#">
                                 <img class="h-100" src="assets/image/facebook.svg" alt="Icone SVG Facebook">
                             </a>
                         </div>
                         <div class="col-1 col-lg-6 px-1">
-                            <a href="">
+                            <a href="#">
                                 <img class="h-100" src="assets/image/instagram.svg" alt="Icone SVG Instagram">
                             </a>
                         </div>
