@@ -1,3 +1,9 @@
 
 // -------- Style du Header -------------- //
 
+nav.bg-ocean{
+    background-color: $ocean;
+    @include Rob-regular-upper;
+    font-size: 1rem;
+    color: $blanc;
+}
