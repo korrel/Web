@@ -1,9 +1,45 @@
 
 // -------- Style du Header -------------- //
 
+
 nav.bg-ocean{
     background-color: $ocean;
-    @include Rob-regular-upper;
-    font-size: 1rem;
-    color: $blanc;
+    border-bottom: 2px solid $ciel;
+    
+    .text-ciel {
+        @include Rob-medium-upper;
+        color: $blanc!important;
+    }
+
+    .light-text{
+        @include Rob-light;
+        color: $ciel!important;
+    }
+
+    .text-navbar {
+        @include Rob-regular-upper;
+        font-size: 0.9rem!important;
+
+        .nav-link{
+            color: $blanc;
+
+        }
+        
+        .nav-link:hover {
+            background-color: $bleu;
+            color: $blanc;
+        }
+
+        .promo{
+            color: $ciel;
+
+            &:hover{
+                color: $blanc;
+            }
+        }
+    }
+
+    .gr_sociaux {
+        max-height: 40px;
+    }
 }
