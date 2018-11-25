@@ -28,7 +28,7 @@ a.text-midium-metal-upper {
     height: 50px;
 }
 
-.counter{
+.counter {
     position: absolute;
     top: 65%;
     left: 45%;
@@ -36,6 +36,10 @@ a.text-midium-metal-upper {
     @include Rob-bold;
     font-size: 0.9rem;
     color: $bleu;
+}
+
+.panier_mobile {
+    width: 25px;
 }
 
 // -------- Navigation du Header -------------- //

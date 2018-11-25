@@ -87,17 +87,137 @@ require_once(__DIR__.'/partials/header.php');
                 </h1>
                 <p>
                     Démarquez-vous avec des t-shirts aux motifs innovants.
-                <p>
-                
+                <p>   
             </div>
         </section>
 
         <!-- //////////////////////// GALLERIE NOUVEAUTES PRODUITS ////////////////////////// -->
-        <section class="container-fluid px-0">
-            <div class="container text-center py-5">
-                <h2>
-                    Les dernières nouveautés
-                </h2>
+        <section class="container-fluid px-0 produit_gallery pb-3">
+            <div class="container text-center pt-5 pb-2">
+                <div class="row">
+                    <div class="col-12 pb-2">                   
+                        <h2>
+                            Les dernières <span class="text-bleu">nouveautés</span>
+                        </h2>
+                    </div>
+                    <div class="col-12">                                    
+                        <div class="separator mx-auto"></div>
+                    </div>
+                </div>
+
+                <!-- controllers -->
+                <nav aria-label="controller-produit py-0">
+                    <ul class="pagination d-flex justify-content-end">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                                <span class="sr-only">Précédent</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                                <span class="sr-only">Suivant</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Gallerie -->
+                <section class="row">
+                    <!-- Produit 01 -->
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 rounded-0 border-0">
+                        <a href="pages/gallery.php" class="produit_link position-relative">
+                            <!-- Visuel Produit -->
+                            <img class="card-img-top rounded-0" src="assets/image/gamehover.png" alt="Image du motif gamehover">
+                            <div class="overlay">
+                                <img class="card-img-top rounded-0" src="assets/image/tshirt-gamehover.png" alt="Image du t-shirt gamehover" />
+                            </div>
+                        </a>
+                        <!-- Infos produit -->
+                        <div class="card-body">
+                            <h3 class="title_produit_gallery">Game Hover</h3>
+                            <div>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-back"></i>
+                            </div>
+                            <h5 class="price_gallery pt-2">25,00€</h5>
+                        </div>
+                    </div>
+
+                    <!-- Produit 02 -->
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 rounded-0 border-0">
+                        <a href="pages/gallery.php" class="produit_link position-relative">
+                            <!-- Visuel Produit -->
+                            <img class="card-img-top rounded-0" src="assets/image/gamehover.png" alt="Image du motif gamehover">
+                            <div class="overlay">
+                                <img class="card-img-top rounded-0" src="assets/image/tshirt-gamehover.png" alt="Image du t-shirt gamehover" />
+                            </div>
+                        </a>
+                        <!-- Infos produit -->
+                        <div class="card-body">
+                            <h3 class="title_produit_gallery">Game Hover</h3>
+                            <div>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-back"></i>
+                            </div>
+                            <h5 class="price_gallery pt-2">25,00€</h5>
+                        </div>
+                    </div>
+
+                    <!-- Produit 03 -->
+                    <div class="card col-12 col-sm-6 col-md-4 col-lg-3 rounded-0 border-0">
+                        <a href="pages/gallery.php" class="produit_link position-relative">
+                            <!-- Visuel Produit -->
+                            <img class="card-img-top rounded-0" src="assets/image/gamehover.png" alt="Image du motif gamehover">
+                            <div class="overlay">
+                                <img class="card-img-top rounded-0" src="assets/image/tshirt-gamehover.png" alt="Image du t-shirt gamehover" />
+                            </div>
+                        </a>
+                        <!-- Infos produit -->
+                        <div class="card-body">
+                            <h3 class="title_produit_gallery">Game Hover</h3>
+                            <div>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-back"></i>
+                            </div>
+                            <h5 class="price_gallery pt-2">25,00€</h5>
+                        </div>
+                    </div>
+
+                    <!-- Produit 04 -->
+                    <div class="card col-12 col-sm-6 d-md-none d-lg-flex col-lg-3 rounded-0 border-0">
+                        <a href="pages/gallery.php" class="produit_link position-relative">
+                            <!-- Visuel Produit -->
+                            <img class="card-img-top rounded-0" src="assets/image/gamehover.png" alt="Image du motif gamehover">
+                            <div class="overlay">
+                                <img class="card-img-top rounded-0" src="assets/image/tshirt-gamehover.png" alt="Image du t-shirt gamehover" />
+                            </div>
+                        </a>
+                        <!-- Infos produit -->
+                        <div class="card-body">
+                            <h3 class="title_produit_gallery">Game Hover</h3>
+                            <div>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-warning"></i>
+                                <i class="fas fa-star text-back"></i>
+                            </div>
+                            <h5 class="price_gallery pt-2">25,00€</h5>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
 

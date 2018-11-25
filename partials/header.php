@@ -69,9 +69,13 @@
             <!-- //////////////////////// NAVBAR DU SITE ////////////////////////// -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-ocean flex-row-reverse flex-md-row p-lg-0 p-1 p-lg-0 border-bottom-primary">
                 <!-- Navbar Brand -->
-                <a class="navbar-brand d-xs-block d-sm-block px-sm-3 d-lg-none text-ciel" href="index.php">
-                    DEV <span class="light-text">my Shirts</span>
-                </a>
+                <div class="navbar-brand d-flex d-flex  px-sm-3 d-lg-none">
+                    <a class="text-ciel" href="index.php">DEV <span class="light-text">my Shirts</span></a>
+                    <div class="h-25 px-2 position-relative">
+                        <span class="counter">0</span>
+                        <img src="assets/image/panier.svg" class="h-100 panier_mobile" alt="Icone de panier d'achat">
+                    </div>
+                </div>
                 <!-- Bouton Toggle -->
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar_links" aria-controls="navbar_links" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
