@@ -1,0 +1,53 @@
+.slide_container {
+    background-color: $gris;
+    max-height: 375px;
+    overflow: hidden;
+
+    .rounded-circle {
+        height: 15px;
+        width: 15px;
+    }
+
+    .carousel-indicators li .rounded-circle {
+        background-color: #21252936;
+    }
+}
+
+.carousel-control-prev{
+    width: 4%!important;
+
+    .carousel-control-prev-icon{
+        z-index: 5;
+    }
+
+    #triangle-right {
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-left: 50px solid $metal;
+        border-bottom: 40px solid transparent;
+    }
+
+}
+
+.carousel-control-next{
+    width: 4%!important;
+
+    .carousel-control-next-icon{
+        z-index: 5;
+
+    }
+
+    #triangle-left {
+        position: absolute;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 40px solid transparent;
+        border-right: 50px solid #7a7c7f;
+        border-bottom: 40px solid transparent;
+    }
+
+}
