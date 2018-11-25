@@ -1,7 +1,11 @@
 .slide_container {
     background-color: $gris;
-    max-height: 375px;
-    overflow: hidden;
+    
+    .shadow_content{
+        box-shadow: inset 0px 11px 8px -10px rgba(19, 19, 19, 0.493), 
+                    inset 0px -11px 8px -10px rgba(19, 19, 19, 0.493);
+        z-index: 10;
+    }
 
     .rounded-circle {
         height: 15px;
@@ -10,6 +14,25 @@
 
     .carousel-indicators li .rounded-circle {
         background-color: #21252936;
+    }
+
+    .carousel_content {
+        right: 0;
+        left: 0;
+        top: 37%;
+        text-align: left;
+        padding: 0 0 0 20%;
+
+        .slogan_slide{
+            font-family: 'Edo SZ', sans-serif;
+            font-size: 6rem;
+            color: $bleu;
+        }
+    }
+
+    .slide_visuel{
+        min-height: 300px;
+        width: auto;
     }
 }
 
