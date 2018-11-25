@@ -6,9 +6,7 @@ require_once(__DIR__.'/partials/header.php');
         <!-- //////////////////////// SLIDE PRINCIPALE ////////////////////////// -->
         <div class="container-fluid position-relative slide_container px-0">
             
-            <div class="container-fluid position-absolute h-100 w-100 shadow_content">
-            </div>
-
+            
             <div id="carouselcontroller" class="carousel slide" data-ride="carousel">
                 <!-- Les indicateurs de slide -->
                 <ol class="carousel-indicators">
@@ -18,14 +16,53 @@ require_once(__DIR__.'/partials/header.php');
                 </ol>
                 <!-- Les slides -->
                 <div class="carousel-inner">
-                    <div class="carousel-item active d-flex justify-content-center">
-                        <div class="carousel-caption d-none d-md-block carousel_content">
-                            <p>Développe un style unique</p>
-                            <h5 class="slogan_slide">Porte un T-shirt Original</h5>
-                            <button type="button" class="btn btn-primary">Découvrir ></button>
+
+                    <!-- slide 01 -->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center">
+                            <div class="carousel-caption d-none d-md-block carousel_content">
+                                <p class="title_slide">Développe un <span>style unique</span></p>
+                                <h5>Porte un T-shirt <span class="slogan_slide d-block">Original</span></h5>
+                                <!-- BTN Découvrir -->
+                                <a href="#" class="btn-decouvrir rounded-0 mt-4 py-2 px-3">Découvrir ></a>
+                            </div>
+                            <!-- Shadow -->
+                            <div class="container-fluid position-absolute h-100 w-100 shadow_content"></div>
+                            <!-- Image du slide -->
+                            <img class="d-block slide_visuel" src="assets/image/slide01.jpg" alt="première slide">
                         </div>
-                    <img class="d-block slide_visuel" src="assets/image/slide01.jpg" alt="première slide">
                     </div>
+                    <!-- slide 02 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="carousel-caption d-none d-md-block carousel_content">
+                                <p class="title_slide">Développe un <span>style unique</span></p>
+                                <h5>Porte un T-shirt <span class="slogan_slide d-block">Original</span></h5>
+                                <!-- BTN Découvrir -->
+                                <a href="#" class="btn-decouvrir rounded-0 mt-4 py-2 px-3">Découvrir ></a>
+                            </div>
+                            <!-- Shadow -->
+                            <div class="container-fluid position-absolute h-100 w-100 shadow_content"></div>
+                            <!-- Image du slide -->
+                            <img class="d-block slide_visuel" src="assets/image/slide01.jpg" alt="première slide">
+                        </div>
+                    </div>
+                    <!-- slide 03 -->
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="carousel-caption d-none d-md-block carousel_content">
+                                <p class="title_slide">Développe un <span>style unique</span></p>
+                                <h5>Porte un T-shirt <span class="slogan_slide d-block">Original</span></h5>
+                                <!-- BTN Découvrir -->
+                                <a href="#" class="btn-decouvrir rounded-0 mt-4 py-2 px-3">Découvrir ></a>
+                            </div>
+                            <!-- Shadow -->
+                            <div class="container-fluid position-absolute h-100 w-100 shadow_content"></div>
+                            <!-- Image du slide -->
+                            <img class="d-block slide_visuel" src="assets/image/slide01.jpg" alt="première slide">
+                        </div>
+                    </div>
+                    
                 </div>
                 <!-- Les controllers -->
                 <a class="carousel-control-prev" href="#carouselcontroller" role="button" data-slide="prev">
@@ -51,6 +88,7 @@ require_once(__DIR__.'/partials/header.php');
                 <p>
                     Démarquez-vous avec des t-shirts aux motifs innovants.
                 <p>
+                
             </div>
         </section>
 

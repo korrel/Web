@@ -26,6 +26,46 @@
         <!-- //////////////////////// HEADER DE LA PAGE ////////////////////////// -->
         <header>
 
+            <!-- //////////////////////// LOGO + PANIER + CONNEXION ////////////////////////// -->
+            <div class="container d-none d-lg-block">
+                <div class="row py-3 px-3">
+                    
+                    <div class="col-md-4 d-flex align-items-center">
+                        <div>
+                            <a href="index.php">
+                                <img src="assets/image/logo.svg" class="logo_icone" alt=" Logo de l'entreprise Dev my Shirts">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center d-flex align-items-center justify-content-center">
+                        <span class="dev_style">Développeurs de style</span>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="row align-items-center user_elements">
+                            <!-- Connexion -->
+                            <div class="col-md-8 h-100 d-flex justify-content-end align-items-center">
+                                <a href="#" class="text-midium-metal-upper">Connexion</a>       
+                            </div>
+                            <!-- Panier -->
+                            <div class="col-md-4 h-100">
+                                <div class="row h-100">                            
+                                    <div class="col-md-8 h-100 d-flex justify-content-end align-items-center">
+                                        <a href="#" class="text-midium-metal-upper">Panier</a> 
+                                    </div>
+                                    <div class="col-md-4 h-75 p-0">
+                                        <span class="counter">0</span>
+                                        <img src="assets/image/panier.svg" class="h-100" alt="Icone de panier d'achat">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
             <!-- //////////////////////// NAVBAR DU SITE ////////////////////////// -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-ocean flex-row-reverse flex-md-row p-lg-0 p-1 p-lg-0 border-bottom-primary">
                 <!-- Navbar Brand -->
@@ -60,7 +100,7 @@
                         </ul>
 
                         <!-- Icones des réseaux sociaux -->
-                        <div class="row ml-3 my-2 my-lg-0 pb-2 pb-lg-0 ml-lg-0 mr-lg-3 gr_sociaux">
+                        <div class="row ml-3 my-2 my-lg-0 pb-2 pb-lg-0 ml-lg-0 mr-lg-0 gr_sociaux">
                             <div class="col-1 col-lg-6 px-1">
                                 <a href="#">
                                     <img class="h-100" src="assets/image/facebook.svg" alt="Icone SVG Facebook">

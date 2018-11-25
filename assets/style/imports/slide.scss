@@ -19,17 +19,42 @@
     .carousel_content {
         right: 0;
         left: 0;
-        top: 37%;
+        top: 25%;
         text-align: left;
         padding: 0 0 0 20%;
+        @include Rob-regular-upper;
+        font-size: 0.9rem;
+        color: $metal;
+        z-index: 100;
 
-        .slogan_slide{
-            font-family: 'Edo SZ', sans-serif;
-            font-size: 6rem;
-            color: $bleu;
+        .title_slide {
+            border: 3px solid #fff;
+            padding: 10px;
+            display: inline-block;
+
+            span{
+                color: $bleu;
+                @include Rob-medium-upper;
+            }
         }
-    }
 
+        h5 {
+            @include Rob-bold;
+            color: $metal;
+            font-size: 1.7rem;
+            line-height: 2rem;
+            
+            .slogan_slide{
+                font-family: 'Edo SZ', sans-serif;
+                font-weight: 400;
+                font-size: 5rem;
+                color: $bleu;
+                line-height: 5rem;
+            }
+        }
+
+    }
+    
     .slide_visuel{
         min-height: 300px;
         width: auto;
