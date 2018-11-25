@@ -93,7 +93,7 @@ require_once(__DIR__.'/partials/header.php');
 
         <!-- //////////////////////// GALLERIE NOUVEAUTES PRODUITS ////////////////////////// -->
         <section class="container-fluid px-0 produit_gallery pb-3">
-            <div class="container text-center pt-5 pb-2">
+            <div class="container text-center pt-5 pb-2 position-relative">
                 <div class="row">
                     <div class="col-12 pb-2">                   
                         <h2>
@@ -217,12 +217,21 @@ require_once(__DIR__.'/partials/header.php');
                         </div>
                     </div>
 
+                    <!-- btn -->
+                    <div class="row position-absolute btn_motifs d-block text-center">
+                        <a href="pages/gallery.php" class="btn-decouvrir rounded-0 mt-4 py-2 px-3">Découvrir les motifs ></a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- //////////////////////// SECTION IDEE MOTIF ////////////////////////// -->
+        <!-- //////////////////////// SECTION CONCEPT ////////////////////////// -->
 
+        <section class="container-fluid concept_content">
+            <div class="container">
+                
+            </div>
+        </section>
 
 <?php
 // Le fichier FOOTER.PHP est inclus sur la page 

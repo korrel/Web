@@ -48,6 +48,12 @@
     background-color: $bleu;
 }
 
+.btn_motifs {
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 // ---- Effet de Overlay ---- //
 .overlay {
     position: absolute;

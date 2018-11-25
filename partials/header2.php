@@ -15,8 +15,8 @@
     <!-- Liens vers les .CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/style/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/style/style.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/style/style.min.css" />
 </head>
 
 <body>
@@ -32,8 +32,8 @@
                     
                     <div class="col-md-4 d-flex align-items-center">
                         <div>
-                            <a href="index.php">
-                                <img src="assets/image/logo.svg" class="logo_icone" alt=" Logo de l'entreprise Dev my Shirts">
+                            <a href="../index.php">
+                                <img src="../assets/image/logo.svg" class="logo_icone" alt=" Logo de l'entreprise Dev my Shirts">
                             </a>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                                     </div>
                                     <div class="col-md-4 h-75 p-0">
                                         <span class="counter">0</span>
-                                        <img src="assets/image/panier.svg" class="h-100" alt="Icone de panier d'achat">
+                                        <img src="../assets/image/panier.svg" class="h-100" alt="Icone de panier d'achat">
                                     </div>
                                 </div>
                             </div>
@@ -70,10 +70,10 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-ocean flex-row-reverse flex-md-row p-lg-0 p-1 p-lg-0 border-bottom-primary">
                 <!-- Navbar Brand -->
                 <div class="navbar-brand d-flex d-flex  px-sm-3 d-lg-none">
-                    <a class="text-ciel" href="index.php">DEV <span class="light-text">my Shirts</span></a>
+                    <a class="text-ciel" href="../index.php">DEV <span class="light-text">my Shirts</span></a>
                     <div class="h-25 px-2 position-relative">
                         <span class="counter">0</span>
-                        <img src="assets/image/panier.svg" class="h-100 panier_mobile" alt="Icone de panier d'achat">
+                        <img src="../assets/image/panier.svg" class="h-100 panier_mobile" alt="Icone de panier d'achat">
                     </div>
                 </div>
                 <!-- Bouton Toggle -->
@@ -87,19 +87,19 @@
                         <!-- Menu principal -->
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link py-3 px-3" href="pages/gallery.php">Homme</a>
+                                <a class="nav-link py-3 px-3 active" href="gallery.php">Homme</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link py-3 px-3" href="pages/gallery.php">Femme</a>
+                                <a class="nav-link py-3 px-3" href="gallery.php">Femme</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link py-3 px-3" href="pages/designers.php">Nos Designers</a>
+                                <a class="nav-link py-3 px-3" href="designers.php">Nos Designers</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link promo py-3 px-3" href="pages/promo.php">Promo de Noël</a>
+                                <a class="nav-link promo py-3 px-3" href="promo.php">Promo de Noël</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link py-3 px-3" href="pages/contact.php">Contact</a>
+                                <a class="nav-link py-3 px-3" href="contact.php">Contact</a>
                             </li>
                         </ul>
 
@@ -107,12 +107,12 @@
                         <div class="row ml-3 my-2 my-lg-0 pb-2 pb-lg-0 ml-lg-0 mr-lg-0 gr_sociaux">
                             <div class="col-1 col-lg-6 px-1">
                                 <a href="#">
-                                    <img class="h-100" src="assets/image/facebook.svg" alt="Icone SVG Facebook">
+                                    <img class="h-100" src="../assets/image/facebook.svg" alt="Icone SVG Facebook">
                                 </a>
                             </div>
                             <div class="col-1 col-lg-6 px-1">
                                 <a href="#">
-                                    <img class="h-100" src="assets/image/instagram.svg" alt="Icone SVG Instagram">
+                                    <img class="h-100" src="../assets/image/instagram.svg" alt="Icone SVG Instagram">
                                 </a>
                             </div>
                         </div>
