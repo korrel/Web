@@ -48,6 +48,13 @@
     background-color: $bleu;
 }
 
+.separator_gallery {
+    padding-top: 2px;
+    width: 20%;
+    margin-bottom: 30px;
+    background-color: $bleu;
+}
+
 .btn_motifs {
     bottom: -35px;
     left: 50%;
@@ -65,5 +72,10 @@
     width: 100%;
     opacity: 0;
     transition: .4s ease-out;
+}
+
+.filter_bandeau {
+    height:70px;
+    background-color: $gris;
 }
 
